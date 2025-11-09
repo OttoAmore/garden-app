@@ -31,7 +31,7 @@ def get_garden_tips(month):
 
 # Main program
 def main():
-    month = input("Enter the month: ")
+    month = input("Enter the month: ").capitalize()
     tips = get_garden_tips(month)
     print(f"Gardening tips for {month}:")
     for tip in tips:
